@@ -1,34 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Below are few assignment guidelines :  
 
-## Getting Started
+1. Implement the assignment in Any JS framework. 
+2. Keep the UI and its all elements responsive.
+3. Follow proper project structure and try to use bower/grunt/gulp/webpack or any other package manager. 
+4 - Keep design as close as given in the slide. 
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+UX flow:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Page 1: 
+1. User enters email and continues to next page by clicking continue button
+2. Validate email input and enable submit button accordingly.
+3. Implementing login with google is a plus.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Page 2:
+1. Aadhaar modal pops up as soon as page loads
+2. Aadhaar input should be validated to take 12 digit number and verify button should be validated accordingly.
+3. OTP input should take only and only 6 digit number.
+4. When checkbox is checked and OTP input is valid, Submit button should be enabled.
+5. Notification mentioned on third page should be shown to user for 3 seconds as a banner and "signing..." should then be changed in "signed". 
+Feel free to call me if you have any doubts. 

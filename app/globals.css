@@ -8,20 +8,81 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.header-bg-color {
+  background: linear-gradient(#3170e6, #0455a1);
+}
+
+.or-styling {
+  top: -22px;
+  right: 48%;
+  background-color: white;
+  padding: 10px;
+}
+
+.email-box-width {
+  width: 240px;
+}
+
+.button-color {
+  background-color: #0455a1;
+}
+
+.highlight-text-color {
+  color: #0455a1;
+}
+
+.text-xxs {
+  font-size: 10px;
+}
+
+.modal-overlay {
+  /* background-color: grey; */
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #80808088;
+}
+
+.modal-content {
+  max-width: 360px;
+  height: 300px;
+  background-color: white;
+  position: absolute;
+  top: 10px;
+}
+
+.aadhar-img {
+  max-width: 70px;
+}
+
+.aadhar-input {
+  max-width: 180px;
+}
+
+@media (min-width: 768px) {
+  .email-box-width {
+    width: 280px;
+  }
+
+  .modal-content {
+    max-width: 480px;
+  }
+
+  .aadhar-input {
+    max-width: none;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
